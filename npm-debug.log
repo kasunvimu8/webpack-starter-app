@@ -1,0 +1,1167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bufferutil@4.0.1' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bufferutil@4.0.1
+8 silly fetchNamedPackageData bufferutil
+9 silly mapToRegistry name bufferutil
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bufferutil',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bufferutil',
+12 silly mapToRegistry   name: 'bufferutil',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+14 verbose request uri https://registry.npmjs.org/bufferutil
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:44:33 AM
+17 verbose request id 6872c1a5244c060c
+18 http request GET https://registry.npmjs.org/bufferutil
+19 http 200 https://registry.npmjs.org/bufferutil
+20 verbose headers { date: 'Sat, 09 Oct 2021 19:15:17 GMT',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'cf-ray': '69b9efcc9a3a4ccd-CMB',
+20 verbose headers   'cache-control': 'public, max-age=300',
+20 verbose headers   etag: 'W/"c918fd6e73f4b11e176dee0acd9129dd"',
+20 verbose headers   'last-modified': 'Sat, 25 Sep 2021 18:59:42 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   'cf-cache-status': 'REVALIDATED',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   'x-amz-replication-status': 'PENDING',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Sat, 09 Oct 2021 19:15:17 GMT',
+21 silly get     'content-type': 'application/json',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'cf-ray': '69b9efcc9a3a4ccd-CMB',
+21 silly get     'cache-control': 'public, max-age=300',
+21 silly get     etag: 'W/"c918fd6e73f4b11e176dee0acd9129dd"',
+21 silly get     'last-modified': 'Sat, 25 Sep 2021 18:59:42 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     'cf-cache-status': 'REVALIDATED',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     'x-amz-replication-status': 'PENDING',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving bufferutil to C:\Users\kasunv\AppData\Roaming\npm-cache\registry.npmjs.org\bufferutil\.cache.json
+23 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule bufferutil@4.0.1 checking installable status
+37 silly cache add args [ 'bufferutil@4.0.1', null ]
+38 verbose cache add spec bufferutil@4.0.1
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'bufferutil@4.0.1',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'bufferutil',
+39 silly cache add   name: 'bufferutil',
+39 silly cache add   rawSpec: '4.0.1',
+39 silly cache add   spec: '4.0.1',
+39 silly cache add   type: 'version' }
+40 silly addNamed bufferutil@4.0.1
+41 verbose addNamed "4.0.1" is a plain semver version for bufferutil
+42 silly mapToRegistry name bufferutil
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'bufferutil',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   escapedName: 'bufferutil',
+45 silly mapToRegistry   name: 'bufferutil',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+47 verbose addNameVersion registry:https://registry.npmjs.org/bufferutil not in flight; fetching
+48 verbose get https://registry.npmjs.org/bufferutil not expired, no request
+49 silly mapToRegistry name bufferutil
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'bufferutil',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   escapedName: 'bufferutil',
+52 silly mapToRegistry   name: 'bufferutil',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+54 verbose addRemoteTarball https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.1.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.1.tgz',
+55 verbose addRemoteTarball   '3a177e8e5819a1243fe16b63a199951a7ad8d4a7' ]
+56 info retry fetch attempt 1 at 12:44:34 AM
+57 info attempt registry request try #1 at 12:44:34 AM
+58 http fetch GET https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.1.tgz
+59 http fetch 200 https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.1.tgz
+60 silly fetchAndShaCheck shasum 3a177e8e5819a1243fe16b63a199951a7ad8d4a7
+61 verbose addTmpTarball C:\Users\kasunv\AppData\Local\Temp\npm-14480-d50cd9b2\registry.npmjs.org\bufferutil\-\bufferutil-4.0.1.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for bufferutil@4.0.1
+63 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+64 silly cache afterAdd bufferutil@4.0.1
+65 verbose afterAdd C:\Users\kasunv\AppData\Roaming\npm-cache\bufferutil\4.0.1\package\package.json not in flight; writing
+66 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+67 verbose afterAdd C:\Users\kasunv\AppData\Roaming\npm-cache\bufferutil\4.0.1\package\package.json written
+68 silly fetchNamedPackageData node-gyp-build
+69 silly mapToRegistry name node-gyp-build
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'node-gyp-build',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   escapedName: 'node-gyp-build',
+72 silly mapToRegistry   name: 'node-gyp-build',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/node-gyp-build
+74 verbose request uri https://registry.npmjs.org/node-gyp-build
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 12:44:36 AM
+77 http request GET https://registry.npmjs.org/node-gyp-build
+78 http 200 https://registry.npmjs.org/node-gyp-build
+79 verbose headers { date: 'Sat, 09 Oct 2021 19:15:21 GMT',
+79 verbose headers   'content-type': 'application/json',
+79 verbose headers   'transfer-encoding': 'chunked',
+79 verbose headers   connection: 'keep-alive',
+79 verbose headers   'cf-ray': '69b9efe32f374ccd-CMB',
+79 verbose headers   'cache-control': 'public, max-age=300',
+79 verbose headers   etag: 'W/"daf8a7b86c6a5362d482aead87e34a08"',
+79 verbose headers   'last-modified': 'Sun, 12 Sep 2021 08:50:13 GMT',
+79 verbose headers   vary: 'accept-encoding, accept',
+79 verbose headers   'cf-cache-status': 'REVALIDATED',
+79 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+79 verbose headers   'x-amz-replication-status': 'PENDING',
+79 verbose headers   server: 'cloudflare',
+79 verbose headers   'content-encoding': 'gzip' }
+80 silly get cb [ 200,
+80 silly get   { date: 'Sat, 09 Oct 2021 19:15:21 GMT',
+80 silly get     'content-type': 'application/json',
+80 silly get     'transfer-encoding': 'chunked',
+80 silly get     connection: 'keep-alive',
+80 silly get     'cf-ray': '69b9efe32f374ccd-CMB',
+80 silly get     'cache-control': 'public, max-age=300',
+80 silly get     etag: 'W/"daf8a7b86c6a5362d482aead87e34a08"',
+80 silly get     'last-modified': 'Sun, 12 Sep 2021 08:50:13 GMT',
+80 silly get     vary: 'accept-encoding, accept',
+80 silly get     'cf-cache-status': 'REVALIDATED',
+80 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+80 silly get     'x-amz-replication-status': 'PENDING',
+80 silly get     server: 'cloudflare',
+80 silly get     'content-encoding': 'gzip' } ]
+81 verbose get saving node-gyp-build to C:\Users\kasunv\AppData\Roaming\npm-cache\registry.npmjs.org\node-gyp-build\.cache.json
+82 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+83 silly resolveWithNewModule node-gyp-build@3.7.0 checking installable status
+84 silly cache add args [ 'node-gyp-build@~3.7.0', null ]
+85 verbose cache add spec node-gyp-build@~3.7.0
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'node-gyp-build@~3.7.0',
+86 silly cache add   scope: null,
+86 silly cache add   escapedName: 'node-gyp-build',
+86 silly cache add   name: 'node-gyp-build',
+86 silly cache add   rawSpec: '~3.7.0',
+86 silly cache add   spec: '>=3.7.0 <3.8.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed node-gyp-build@>=3.7.0 <3.8.0
+88 verbose addNamed ">=3.7.0 <3.8.0" is a valid semver range for node-gyp-build
+89 silly addNameRange { name: 'node-gyp-build',
+89 silly addNameRange   range: '>=3.7.0 <3.8.0',
+89 silly addNameRange   hasData: false }
+90 silly mapToRegistry name node-gyp-build
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'node-gyp-build',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   escapedName: 'node-gyp-build',
+93 silly mapToRegistry   name: 'node-gyp-build',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/node-gyp-build
+95 verbose addNameRange registry:https://registry.npmjs.org/node-gyp-build not in flight; fetching
+96 verbose get https://registry.npmjs.org/node-gyp-build not expired, no request
+97 silly addNameRange number 2 { name: 'node-gyp-build',
+97 silly addNameRange   range: '>=3.7.0 <3.8.0',
+97 silly addNameRange   hasData: true }
+98 silly addNameRange versions [ 'node-gyp-build',
+98 silly addNameRange   [ '1.0.0',
+98 silly addNameRange     '1.0.1',
+98 silly addNameRange     '1.1.0',
+98 silly addNameRange     '1.1.1',
+98 silly addNameRange     '2.0.0',
+98 silly addNameRange     '2.0.1',
+98 silly addNameRange     '2.0.2',
+98 silly addNameRange     '3.0.0',
+98 silly addNameRange     '3.0.1',
+98 silly addNameRange     '3.1.0',
+98 silly addNameRange     '3.2.0',
+98 silly addNameRange     '3.2.1',
+98 silly addNameRange     '3.2.2',
+98 silly addNameRange     '3.3.0',
+98 silly addNameRange     '3.4.0',
+98 silly addNameRange     '3.5.0',
+98 silly addNameRange     '3.5.1',
+98 silly addNameRange     '3.6.0',
+98 silly addNameRange     '3.7.0',
+98 silly addNameRange     '3.8.0',
+98 silly addNameRange     '4.0.0',
+98 silly addNameRange     '3.9.0',
+98 silly addNameRange     '4.1.0',
+98 silly addNameRange     '4.1.1',
+98 silly addNameRange     '4.2.0',
+98 silly addNameRange     '4.2.1',
+98 silly addNameRange     '4.2.2',
+98 silly addNameRange     '4.2.3',
+98 silly addNameRange     '4.3.0' ] ]
+99 silly addNamed node-gyp-build@3.7.0
+100 verbose addNamed "3.7.0" is a plain semver version for node-gyp-build
+101 silly mapToRegistry name node-gyp-build
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'node-gyp-build',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   escapedName: 'node-gyp-build',
+104 silly mapToRegistry   name: 'node-gyp-build',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri https://registry.npmjs.org/node-gyp-build
+106 verbose addRemoteTarball https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-3.7.0.tgz not in flight; adding
+107 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-3.7.0.tgz',
+107 verbose addRemoteTarball   'daa77a4f547b9aed3e2aac779eaf151afd60ec8d' ]
+108 info retry fetch attempt 1 at 12:44:37 AM
+109 info attempt registry request try #1 at 12:44:37 AM
+110 http fetch GET https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-3.7.0.tgz
+111 http fetch 200 https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-3.7.0.tgz
+112 silly fetchAndShaCheck shasum daa77a4f547b9aed3e2aac779eaf151afd60ec8d
+113 verbose addTmpTarball C:\Users\kasunv\AppData\Local\Temp\npm-14480-d50cd9b2\registry.npmjs.org\node-gyp-build\-\node-gyp-build-3.7.0.tgz not in flight; adding
+114 verbose addTmpTarball already have metadata; skipping unpack for node-gyp-build@3.7.0
+115 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+116 silly cache afterAdd node-gyp-build@3.7.0
+117 verbose afterAdd C:\Users\kasunv\AppData\Roaming\npm-cache\node-gyp-build\3.7.0\package\package.json not in flight; writing
+118 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+119 verbose afterAdd C:\Users\kasunv\AppData\Roaming\npm-cache\node-gyp-build\3.7.0\package\package.json written
+120 silly fetchNamedPackageData fsevents
+121 silly mapToRegistry name fsevents
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'fsevents',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   escapedName: 'fsevents',
+124 silly mapToRegistry   name: 'fsevents',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+126 verbose request uri https://registry.npmjs.org/fsevents
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 12:44:39 AM
+129 verbose etag W/"897b89cb36d39b1e4f3706e4aaceba9b"
+130 verbose lastModified Fri, 05 Feb 2021 14:46:37 GMT
+131 http request GET https://registry.npmjs.org/fsevents
+132 http 304 https://registry.npmjs.org/fsevents
+133 verbose headers { date: 'Sat, 09 Oct 2021 19:15:22 GMT',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'cf-ray': '69b9eff0c8544ccd-CMB',
+133 verbose headers   age: '88',
+133 verbose headers   'cache-control': 'public, max-age=300',
+133 verbose headers   etag: '"897b89cb36d39b1e4f3706e4aaceba9b"',
+133 verbose headers   'last-modified': 'Fri, 05 Feb 2021 14:46:37 GMT',
+133 verbose headers   vary: 'Accept-Encoding',
+133 verbose headers   'cf-cache-status': 'HIT',
+133 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+133 verbose headers   server: 'cloudflare' }
+134 silly get cb [ 304,
+134 silly get   { date: 'Sat, 09 Oct 2021 19:15:22 GMT',
+134 silly get     connection: 'keep-alive',
+134 silly get     'cf-ray': '69b9eff0c8544ccd-CMB',
+134 silly get     age: '88',
+134 silly get     'cache-control': 'public, max-age=300',
+134 silly get     etag: '"897b89cb36d39b1e4f3706e4aaceba9b"',
+134 silly get     'last-modified': 'Fri, 05 Feb 2021 14:46:37 GMT',
+134 silly get     vary: 'Accept-Encoding',
+134 silly get     'cf-cache-status': 'HIT',
+134 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+134 silly get     server: 'cloudflare' } ]
+135 verbose etag https://registry.npmjs.org/fsevents from cache
+136 verbose get saving fsevents to C:\Users\kasunv\AppData\Roaming\npm-cache\registry.npmjs.org\fsevents\.cache.json
+137 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+138 silly resolveWithNewModule fsevents@2.3.2 checking installable status
+139 silly loadAllDepsIntoIdealTree Finishing
+140 silly loadIdealTree Finishing
+141 silly currentTree webpack-starter-app
+141 silly currentTree +-- @discoveryjs/json-ext@0.5.5
+141 silly currentTree +-- @nodelib/fs.scandir@2.1.5
+141 silly currentTree +-- @nodelib/fs.stat@2.0.5
+141 silly currentTree +-- @nodelib/fs.walk@1.2.8
+141 silly currentTree +-- @types/eslint-scope@3.7.1
+141 silly currentTree +-- @types/eslint@7.28.1
+141 silly currentTree +-- @types/estree@0.0.50
+141 silly currentTree +-- @types/http-proxy@1.17.7
+141 silly currentTree +-- @types/json-schema@7.0.9
+141 silly currentTree +-- @types/node@16.10.3
+141 silly currentTree +-- @types/retry@0.12.1
+141 silly currentTree +-- @webassemblyjs/ast@1.11.1
+141 silly currentTree +-- @webassemblyjs/floating-point-hex-parser@1.11.1
+141 silly currentTree +-- @webassemblyjs/helper-api-error@1.11.1
+141 silly currentTree +-- @webassemblyjs/helper-buffer@1.11.1
+141 silly currentTree +-- @webassemblyjs/helper-numbers@1.11.1
+141 silly currentTree +-- @webassemblyjs/helper-wasm-bytecode@1.11.1
+141 silly currentTree +-- @webassemblyjs/helper-wasm-section@1.11.1
+141 silly currentTree +-- @webassemblyjs/ieee754@1.11.1
+141 silly currentTree +-- @webassemblyjs/leb128@1.11.1
+141 silly currentTree +-- @webassemblyjs/utf8@1.11.1
+141 silly currentTree +-- @webassemblyjs/wasm-edit@1.11.1
+141 silly currentTree +-- @webassemblyjs/wasm-gen@1.11.1
+141 silly currentTree +-- @webassemblyjs/wasm-opt@1.11.1
+141 silly currentTree +-- @webassemblyjs/wasm-parser@1.11.1
+141 silly currentTree +-- @webassemblyjs/wast-printer@1.11.1
+141 silly currentTree +-- @webpack-cli/configtest@1.1.0
+141 silly currentTree +-- @webpack-cli/info@1.4.0
+141 silly currentTree +-- @webpack-cli/serve@1.6.0
+141 silly currentTree +-- @xtuc/ieee754@1.2.0
+141 silly currentTree +-- @xtuc/long@4.2.2
+141 silly currentTree +-- accepts@1.3.7
+141 silly currentTree +-- acorn-import-assertions@1.8.0
+141 silly currentTree +-- acorn@8.5.0
+141 silly currentTree +-- aggregate-error@3.1.0
+141 silly currentTree +-- ajv-keywords@3.5.2
+141 silly currentTree +-- ajv@6.12.6
+141 silly currentTree +-- ansi-html-community@0.0.8
+141 silly currentTree +-- ansi-regex@6.0.1
+141 silly currentTree +-- anymatch@3.1.2
+141 silly currentTree +-- array-flatten@2.1.2
+141 silly currentTree +-- array-union@2.1.0
+141 silly currentTree +-- async@2.6.3
+141 silly currentTree +-- balanced-match@1.0.2
+141 silly currentTree +-- batch@0.6.1
+141 silly currentTree +-- binary-extensions@2.2.0
+141 silly currentTree +-- body-parser@1.19.0
+141 silly currentTree | `-- bytes@3.1.0
+141 silly currentTree +-- bonjour@3.5.0
+141 silly currentTree +-- brace-expansion@1.1.11
+141 silly currentTree +-- braces@3.0.2
+141 silly currentTree +-- browserslist@4.17.3
+141 silly currentTree +-- buffer-from@1.1.2
+141 silly currentTree +-- buffer-indexof@1.1.1
+141 silly currentTree +-- bytes@3.0.0
+141 silly currentTree +-- call-bind@1.0.2
+141 silly currentTree +-- caniuse-lite@1.0.30001265
+141 silly currentTree +-- chokidar@3.5.2
+141 silly currentTree +-- chrome-trace-event@1.0.3
+141 silly currentTree +-- clean-stack@2.2.0
+141 silly currentTree +-- clone-deep@4.0.1
+141 silly currentTree +-- colorette@2.0.16
+141 silly currentTree +-- commander@2.20.3
+141 silly currentTree +-- compressible@2.0.18
+141 silly currentTree +-- compression@1.7.4
+141 silly currentTree | `-- safe-buffer@5.1.2
+141 silly currentTree +-- concat-map@0.0.1
+141 silly currentTree +-- connect-history-api-fallback@1.6.0
+141 silly currentTree +-- content-disposition@0.5.3
+141 silly currentTree | `-- safe-buffer@5.1.2
+141 silly currentTree +-- content-type@1.0.4
+141 silly currentTree +-- cookie-signature@1.0.6
+141 silly currentTree +-- cookie@0.4.0
+141 silly currentTree +-- core-util-is@1.0.3
+141 silly currentTree +-- cross-spawn@7.0.3
+141 silly currentTree +-- debug@2.6.9
+141 silly currentTree +-- deep-equal@1.1.1
+141 silly currentTree +-- default-gateway@6.0.3
+141 silly currentTree +-- define-lazy-prop@2.0.0
+141 silly currentTree +-- define-properties@1.1.3
+141 silly currentTree +-- del@6.0.0
+141 silly currentTree +-- depd@1.1.2
+141 silly currentTree +-- destroy@1.0.4
+141 silly currentTree +-- detect-node@2.1.0
+141 silly currentTree +-- dir-glob@3.0.1
+141 silly currentTree +-- dns-equal@1.0.0
+141 silly currentTree +-- dns-packet@1.3.4
+141 silly currentTree +-- dns-txt@2.0.2
+141 silly currentTree +-- ee-first@1.1.1
+141 silly currentTree +-- electron-to-chromium@1.3.864
+141 silly currentTree +-- encodeurl@1.0.2
+141 silly currentTree +-- enhanced-resolve@5.8.3
+141 silly currentTree +-- envinfo@7.8.1
+141 silly currentTree +-- es-module-lexer@0.9.3
+141 silly currentTree +-- escalade@3.1.1
+141 silly currentTree +-- escape-html@1.0.3
+141 silly currentTree +-- eslint-scope@5.1.1
+141 silly currentTree +-- esrecurse@4.3.0
+141 silly currentTree | `-- estraverse@5.2.0
+141 silly currentTree +-- estraverse@4.3.0
+141 silly currentTree +-- etag@1.8.1
+141 silly currentTree +-- eventemitter3@4.0.7
+141 silly currentTree +-- events@3.3.0
+141 silly currentTree +-- execa@5.1.1
+141 silly currentTree +-- executioner@2.0.1
+141 silly currentTree +-- express@4.17.1
+141 silly currentTree | +-- array-flatten@1.1.1
+141 silly currentTree | `-- safe-buffer@5.1.2
+141 silly currentTree +-- fast-deep-equal@3.1.3
+141 silly currentTree +-- fast-glob@3.2.7
+141 silly currentTree +-- fast-json-stable-stringify@2.1.0
+141 silly currentTree +-- fastest-levenshtein@1.0.12
+141 silly currentTree +-- fastq@1.13.0
+141 silly currentTree +-- faye-websocket@0.11.4
+141 silly currentTree +-- fill-range@7.0.1
+141 silly currentTree +-- finalhandler@1.1.2
+141 silly currentTree +-- find-up@4.1.0
+141 silly currentTree +-- follow-redirects@1.14.4
+141 silly currentTree +-- forwarded@0.2.0
+141 silly currentTree +-- fresh@0.5.2
+141 silly currentTree +-- fs-monkey@1.0.3
+141 silly currentTree +-- fs.realpath@1.0.0
+141 silly currentTree +-- fulcon@1.0.2
+141 silly currentTree +-- function-bind@1.1.1
+141 silly currentTree +-- get-intrinsic@1.1.1
+141 silly currentTree +-- get-stream@6.0.1
+141 silly currentTree +-- glob-parent@5.1.2
+141 silly currentTree +-- glob-to-regexp@0.4.1
+141 silly currentTree +-- glob@7.2.0
+141 silly currentTree +-- globby@11.0.4
+141 silly currentTree +-- graceful-fs@4.2.8
+141 silly currentTree +-- handle-thing@2.0.1
+141 silly currentTree +-- has-flag@4.0.0
+141 silly currentTree +-- has-symbols@1.0.2
+141 silly currentTree +-- has-tostringtag@1.0.0
+141 silly currentTree +-- has@1.0.3
+141 silly currentTree +-- hpack.js@2.1.6
+141 silly currentTree | +-- readable-stream@2.3.7
+141 silly currentTree | `-- safe-buffer@5.1.2
+141 silly currentTree +-- html-entities@2.3.2
+141 silly currentTree +-- http-deceiver@1.2.7
+141 silly currentTree +-- http-errors@1.7.2
+141 silly currentTree | `-- inherits@2.0.3
+141 silly currentTree +-- http-parser-js@0.5.3
+141 silly currentTree +-- http-proxy-middleware@2.0.1
+141 silly currentTree +-- http-proxy@1.18.1
+141 silly currentTree +-- human-signals@2.1.0
+141 silly currentTree +-- iconv-lite@0.4.24
+141 silly currentTree +-- ignore@5.1.8
+141 silly currentTree +-- import-local@3.0.3
+141 silly currentTree +-- indent-string@4.0.0
+141 silly currentTree +-- inflight@1.0.6
+141 silly currentTree +-- inherits@2.0.4
+141 silly currentTree +-- install-peers@1.0.3
+141 silly currentTree +-- internal-ip@6.2.0
+141 silly currentTree | `-- ipaddr.js@1.9.1
+141 silly currentTree +-- interpret@2.2.0
+141 silly currentTree +-- ip-regex@4.3.0
+141 silly currentTree +-- ip@1.1.5
+141 silly currentTree +-- ipaddr.js@2.0.1
+141 silly currentTree +-- is-arguments@1.1.1
+141 silly currentTree +-- is-binary-path@2.1.0
+141 silly currentTree +-- is-core-module@2.7.0
+141 silly currentTree +-- is-date-object@1.0.5
+141 silly currentTree +-- is-docker@2.2.1
+141 silly currentTree +-- is-extglob@2.1.1
+141 silly currentTree +-- is-glob@4.0.3
+141 silly currentTree +-- is-ip@3.1.0
+141 silly currentTree +-- is-number@7.0.0
+141 silly currentTree +-- is-path-cwd@2.2.0
+141 silly currentTree +-- is-path-inside@3.0.3
+141 silly currentTree +-- is-plain-obj@3.0.0
+141 silly currentTree +-- is-plain-object@2.0.4
+141 silly currentTree +-- is-regex@1.1.4
+141 silly currentTree +-- is-stream@2.0.1
+141 silly currentTree +-- is-wsl@2.2.0
+141 silly currentTree +-- isarray@1.0.0
+141 silly currentTree +-- isexe@2.0.0
+141 silly currentTree +-- isobject@3.0.1
+141 silly currentTree +-- jest-worker@27.2.5
+141 silly currentTree +-- json-parse-better-errors@1.0.2
+141 silly currentTree +-- json-schema-traverse@0.4.1
+141 silly currentTree +-- kind-of@6.0.3
+141 silly currentTree +-- loader-runner@4.2.0
+141 silly currentTree +-- locate-path@5.0.0
+141 silly currentTree +-- lodash@4.17.21
+141 silly currentTree +-- media-typer@0.3.0
+141 silly currentTree +-- memfs@3.3.0
+141 silly currentTree +-- merge-descriptors@1.0.1
+141 silly currentTree +-- merge-stream@2.0.0
+141 silly currentTree +-- merge2@1.4.1
+141 silly currentTree +-- methods@1.1.2
+141 silly currentTree +-- micromatch@4.0.4
+141 silly currentTree +-- mime-db@1.50.0
+141 silly currentTree +-- mime-types@2.1.33
+141 silly currentTree +-- mime@1.6.0
+141 silly currentTree +-- mimic-fn@2.1.0
+141 silly currentTree +-- minimalistic-assert@1.0.1
+141 silly currentTree +-- minimatch@3.0.4
+141 silly currentTree +-- minimist@1.2.5
+141 silly currentTree +-- mixly@1.0.0
+141 silly currentTree +-- mkdirp@0.5.5
+141 silly currentTree +-- ms@2.0.0
+141 silly currentTree +-- multicast-dns-service-types@1.1.0
+141 silly currentTree +-- multicast-dns@6.2.3
+141 silly currentTree +-- negotiator@0.6.2
+141 silly currentTree +-- neo-async@2.6.2
+141 silly currentTree +-- node-forge@0.10.0
+141 silly currentTree +-- node-releases@1.1.77
+141 silly currentTree +-- normalize-path@3.0.0
+141 silly currentTree +-- npm-run-path@4.0.1
+141 silly currentTree +-- object-is@1.1.5
+141 silly currentTree +-- object-keys@1.1.1
+141 silly currentTree +-- obuf@1.1.2
+141 silly currentTree +-- on-finished@2.3.0
+141 silly currentTree +-- on-headers@1.0.2
+141 silly currentTree +-- once@1.4.0
+141 silly currentTree +-- onetime@5.1.2
+141 silly currentTree +-- open@8.3.0
+141 silly currentTree +-- p-event@4.2.0
+141 silly currentTree +-- p-finally@1.0.0
+141 silly currentTree +-- p-limit@3.1.0
+141 silly currentTree +-- p-locate@4.1.0
+141 silly currentTree | `-- p-limit@2.3.0
+141 silly currentTree +-- p-map@4.0.0
+141 silly currentTree +-- p-retry@4.6.1
+141 silly currentTree +-- p-timeout@3.2.0
+141 silly currentTree +-- p-try@2.2.0
+141 silly currentTree +-- parseurl@1.3.3
+141 silly currentTree +-- path-exists@4.0.0
+141 silly currentTree +-- path-is-absolute@1.0.1
+141 silly currentTree +-- path-key@3.1.1
+141 silly currentTree +-- path-parse@1.0.7
+141 silly currentTree +-- path-to-regexp@0.1.7
+141 silly currentTree +-- path-type@4.0.0
+141 silly currentTree +-- picocolors@0.2.1
+141 silly currentTree +-- picomatch@2.3.0
+141 silly currentTree +-- pkg-dir@4.2.0
+141 silly currentTree +-- portfinder@1.0.28
+141 silly currentTree | +-- debug@3.2.7
+141 silly currentTree | `-- ms@2.1.3
+141 silly currentTree +-- process-nextick-args@2.0.1
+141 silly currentTree +-- proxy-addr@2.0.7
+141 silly currentTree | `-- ipaddr.js@1.9.1
+141 silly currentTree +-- punycode@2.1.1
+141 silly currentTree +-- qs@6.7.0
+141 silly currentTree +-- querystring@0.2.0
+141 silly currentTree +-- queue-microtask@1.2.3
+141 silly currentTree +-- randombytes@2.1.0
+141 silly currentTree +-- range-parser@1.2.1
+141 silly currentTree +-- raw-body@2.4.0
+141 silly currentTree | `-- bytes@3.1.0
+141 silly currentTree +-- readable-stream@3.6.0
+141 silly currentTree +-- readdirp@3.6.0
+141 silly currentTree +-- rechoir@0.7.1
+141 silly currentTree +-- regexp.prototype.flags@1.3.1
+141 silly currentTree +-- requires-port@1.0.0
+141 silly currentTree +-- resolve-cwd@3.0.0
+141 silly currentTree +-- resolve-from@5.0.0
+141 silly currentTree +-- resolve@1.20.0
+141 silly currentTree +-- retry@0.13.1
+141 silly currentTree +-- reusify@1.0.4
+141 silly currentTree +-- rimraf@3.0.2
+141 silly currentTree +-- run-parallel@1.2.0
+141 silly currentTree +-- safe-buffer@5.2.1
+141 silly currentTree +-- safer-buffer@2.1.2
+141 silly currentTree +-- schema-utils@3.1.1
+141 silly currentTree +-- select-hose@2.0.0
+141 silly currentTree +-- selfsigned@1.10.11
+141 silly currentTree +-- send@0.17.1
+141 silly currentTree | `-- ms@2.1.1
+141 silly currentTree +-- serialize-javascript@6.0.0
+141 silly currentTree +-- serve-index@1.9.1
+141 silly currentTree | +-- http-errors@1.6.3
+141 silly currentTree | +-- inherits@2.0.3
+141 silly currentTree | `-- setprototypeof@1.1.0
+141 silly currentTree +-- serve-static@1.14.1
+141 silly currentTree +-- setprototypeof@1.1.1
+141 silly currentTree +-- shallow-clone@3.0.1
+141 silly currentTree +-- shebang-command@2.0.0
+141 silly currentTree +-- shebang-regex@3.0.0
+141 silly currentTree +-- signal-exit@3.0.5
+141 silly currentTree +-- slash@3.0.0
+141 silly currentTree +-- sockjs@0.3.21
+141 silly currentTree +-- source-map-support@0.5.20
+141 silly currentTree +-- source-map@0.6.1
+141 silly currentTree +-- spdy-transport@3.0.0
+141 silly currentTree | +-- debug@4.3.2
+141 silly currentTree | `-- ms@2.1.2
+141 silly currentTree +-- spdy@4.0.2
+141 silly currentTree | +-- debug@4.3.2
+141 silly currentTree | `-- ms@2.1.2
+141 silly currentTree +-- statuses@1.5.0
+141 silly currentTree +-- string_decoder@1.1.1
+141 silly currentTree | `-- safe-buffer@5.1.2
+141 silly currentTree +-- strip-ansi@7.0.1
+141 silly currentTree +-- strip-final-newline@2.0.0
+141 silly currentTree +-- supports-color@8.1.1
+141 silly currentTree +-- tapable@2.2.1
+141 silly currentTree +-- terser-webpack-plugin@5.2.4
+141 silly currentTree +-- terser@5.9.0
+141 silly currentTree | `-- source-map@0.7.3
+141 silly currentTree +-- thunky@1.1.0
+141 silly currentTree +-- to-regex-range@5.0.1
+141 silly currentTree +-- toidentifier@1.0.0
+141 silly currentTree +-- type-is@1.6.18
+141 silly currentTree +-- unpipe@1.0.0
+141 silly currentTree +-- uri-js@4.4.1
+141 silly currentTree +-- url@0.11.0
+141 silly currentTree | `-- punycode@1.3.2
+141 silly currentTree +-- util-deprecate@1.0.2
+141 silly currentTree +-- utils-merge@1.0.1
+141 silly currentTree +-- uuid@3.4.0
+141 silly currentTree +-- v8-compile-cache@2.3.0
+141 silly currentTree +-- vary@1.1.2
+141 silly currentTree +-- watchpack@2.2.0
+141 silly currentTree +-- wbuf@1.7.3
+141 silly currentTree +-- webpack-cli@4.9.0
+141 silly currentTree | `-- commander@7.2.0
+141 silly currentTree +-- webpack-dev-middleware@5.2.1
+141 silly currentTree +-- webpack-dev-server@4.3.1
+141 silly currentTree +-- webpack-merge@5.8.0
+141 silly currentTree +-- webpack-sources@3.2.1
+141 silly currentTree +-- webpack@5.58.1
+141 silly currentTree +-- websocket-driver@0.7.4
+141 silly currentTree +-- websocket-extensions@0.1.4
+141 silly currentTree +-- which@2.0.2
+141 silly currentTree +-- wildcard@2.0.0
+141 silly currentTree +-- wrappy@1.0.2
+141 silly currentTree +-- ws@8.2.3
+141 silly currentTree `-- yocto-queue@0.1.0
+142 silly idealTree webpack-starter-app
+142 silly idealTree +-- @discoveryjs/json-ext@0.5.5
+142 silly idealTree +-- @nodelib/fs.scandir@2.1.5
+142 silly idealTree +-- @nodelib/fs.stat@2.0.5
+142 silly idealTree +-- @nodelib/fs.walk@1.2.8
+142 silly idealTree +-- @types/eslint-scope@3.7.1
+142 silly idealTree +-- @types/eslint@7.28.1
+142 silly idealTree +-- @types/estree@0.0.50
+142 silly idealTree +-- @types/http-proxy@1.17.7
+142 silly idealTree +-- @types/json-schema@7.0.9
+142 silly idealTree +-- @types/node@16.10.3
+142 silly idealTree +-- @types/retry@0.12.1
+142 silly idealTree +-- @webassemblyjs/ast@1.11.1
+142 silly idealTree +-- @webassemblyjs/floating-point-hex-parser@1.11.1
+142 silly idealTree +-- @webassemblyjs/helper-api-error@1.11.1
+142 silly idealTree +-- @webassemblyjs/helper-buffer@1.11.1
+142 silly idealTree +-- @webassemblyjs/helper-numbers@1.11.1
+142 silly idealTree +-- @webassemblyjs/helper-wasm-bytecode@1.11.1
+142 silly idealTree +-- @webassemblyjs/helper-wasm-section@1.11.1
+142 silly idealTree +-- @webassemblyjs/ieee754@1.11.1
+142 silly idealTree +-- @webassemblyjs/leb128@1.11.1
+142 silly idealTree +-- @webassemblyjs/utf8@1.11.1
+142 silly idealTree +-- @webassemblyjs/wasm-edit@1.11.1
+142 silly idealTree +-- @webassemblyjs/wasm-gen@1.11.1
+142 silly idealTree +-- @webassemblyjs/wasm-opt@1.11.1
+142 silly idealTree +-- @webassemblyjs/wasm-parser@1.11.1
+142 silly idealTree +-- @webassemblyjs/wast-printer@1.11.1
+142 silly idealTree +-- @webpack-cli/configtest@1.1.0
+142 silly idealTree +-- @webpack-cli/info@1.4.0
+142 silly idealTree +-- @webpack-cli/serve@1.6.0
+142 silly idealTree +-- @xtuc/ieee754@1.2.0
+142 silly idealTree +-- @xtuc/long@4.2.2
+142 silly idealTree +-- accepts@1.3.7
+142 silly idealTree +-- acorn-import-assertions@1.8.0
+142 silly idealTree +-- acorn@8.5.0
+142 silly idealTree +-- aggregate-error@3.1.0
+142 silly idealTree +-- ajv-keywords@3.5.2
+142 silly idealTree +-- ajv@6.12.6
+142 silly idealTree +-- ansi-html-community@0.0.8
+142 silly idealTree +-- ansi-regex@6.0.1
+142 silly idealTree +-- anymatch@3.1.2
+142 silly idealTree +-- array-flatten@2.1.2
+142 silly idealTree +-- array-union@2.1.0
+142 silly idealTree +-- async@2.6.3
+142 silly idealTree +-- balanced-match@1.0.2
+142 silly idealTree +-- batch@0.6.1
+142 silly idealTree +-- binary-extensions@2.2.0
+142 silly idealTree +-- body-parser@1.19.0
+142 silly idealTree | `-- bytes@3.1.0
+142 silly idealTree +-- bonjour@3.5.0
+142 silly idealTree +-- brace-expansion@1.1.11
+142 silly idealTree +-- braces@3.0.2
+142 silly idealTree +-- browserslist@4.17.3
+142 silly idealTree +-- buffer-from@1.1.2
+142 silly idealTree +-- buffer-indexof@1.1.1
+142 silly idealTree +-- bufferutil@4.0.1
+142 silly idealTree +-- bytes@3.0.0
+142 silly idealTree +-- call-bind@1.0.2
+142 silly idealTree +-- caniuse-lite@1.0.30001265
+142 silly idealTree +-- chokidar@3.5.2
+142 silly idealTree +-- chrome-trace-event@1.0.3
+142 silly idealTree +-- clean-stack@2.2.0
+142 silly idealTree +-- clone-deep@4.0.1
+142 silly idealTree +-- colorette@2.0.16
+142 silly idealTree +-- commander@2.20.3
+142 silly idealTree +-- compressible@2.0.18
+142 silly idealTree +-- compression@1.7.4
+142 silly idealTree | `-- safe-buffer@5.1.2
+142 silly idealTree +-- concat-map@0.0.1
+142 silly idealTree +-- connect-history-api-fallback@1.6.0
+142 silly idealTree +-- content-disposition@0.5.3
+142 silly idealTree | `-- safe-buffer@5.1.2
+142 silly idealTree +-- content-type@1.0.4
+142 silly idealTree +-- cookie-signature@1.0.6
+142 silly idealTree +-- cookie@0.4.0
+142 silly idealTree +-- core-util-is@1.0.3
+142 silly idealTree +-- cross-spawn@7.0.3
+142 silly idealTree +-- debug@2.6.9
+142 silly idealTree +-- deep-equal@1.1.1
+142 silly idealTree +-- default-gateway@6.0.3
+142 silly idealTree +-- define-lazy-prop@2.0.0
+142 silly idealTree +-- define-properties@1.1.3
+142 silly idealTree +-- del@6.0.0
+142 silly idealTree +-- depd@1.1.2
+142 silly idealTree +-- destroy@1.0.4
+142 silly idealTree +-- detect-node@2.1.0
+142 silly idealTree +-- dir-glob@3.0.1
+142 silly idealTree +-- dns-equal@1.0.0
+142 silly idealTree +-- dns-packet@1.3.4
+142 silly idealTree +-- dns-txt@2.0.2
+142 silly idealTree +-- ee-first@1.1.1
+142 silly idealTree +-- electron-to-chromium@1.3.864
+142 silly idealTree +-- encodeurl@1.0.2
+142 silly idealTree +-- enhanced-resolve@5.8.3
+142 silly idealTree +-- envinfo@7.8.1
+142 silly idealTree +-- es-module-lexer@0.9.3
+142 silly idealTree +-- escalade@3.1.1
+142 silly idealTree +-- escape-html@1.0.3
+142 silly idealTree +-- eslint-scope@5.1.1
+142 silly idealTree +-- esrecurse@4.3.0
+142 silly idealTree | `-- estraverse@5.2.0
+142 silly idealTree +-- estraverse@4.3.0
+142 silly idealTree +-- etag@1.8.1
+142 silly idealTree +-- eventemitter3@4.0.7
+142 silly idealTree +-- events@3.3.0
+142 silly idealTree +-- execa@5.1.1
+142 silly idealTree +-- executioner@2.0.1
+142 silly idealTree +-- express@4.17.1
+142 silly idealTree | +-- array-flatten@1.1.1
+142 silly idealTree | `-- safe-buffer@5.1.2
+142 silly idealTree +-- fast-deep-equal@3.1.3
+142 silly idealTree +-- fast-glob@3.2.7
+142 silly idealTree +-- fast-json-stable-stringify@2.1.0
+142 silly idealTree +-- fastest-levenshtein@1.0.12
+142 silly idealTree +-- fastq@1.13.0
+142 silly idealTree +-- faye-websocket@0.11.4
+142 silly idealTree +-- fill-range@7.0.1
+142 silly idealTree +-- finalhandler@1.1.2
+142 silly idealTree +-- find-up@4.1.0
+142 silly idealTree +-- follow-redirects@1.14.4
+142 silly idealTree +-- forwarded@0.2.0
+142 silly idealTree +-- fresh@0.5.2
+142 silly idealTree +-- fs-monkey@1.0.3
+142 silly idealTree +-- fs.realpath@1.0.0
+142 silly idealTree +-- fulcon@1.0.2
+142 silly idealTree +-- function-bind@1.1.1
+142 silly idealTree +-- get-intrinsic@1.1.1
+142 silly idealTree +-- get-stream@6.0.1
+142 silly idealTree +-- glob-parent@5.1.2
+142 silly idealTree +-- glob-to-regexp@0.4.1
+142 silly idealTree +-- glob@7.2.0
+142 silly idealTree +-- globby@11.0.4
+142 silly idealTree +-- graceful-fs@4.2.8
+142 silly idealTree +-- handle-thing@2.0.1
+142 silly idealTree +-- has-flag@4.0.0
+142 silly idealTree +-- has-symbols@1.0.2
+142 silly idealTree +-- has-tostringtag@1.0.0
+142 silly idealTree +-- has@1.0.3
+142 silly idealTree +-- hpack.js@2.1.6
+142 silly idealTree | +-- readable-stream@2.3.7
+142 silly idealTree | `-- safe-buffer@5.1.2
+142 silly idealTree +-- html-entities@2.3.2
+142 silly idealTree +-- http-deceiver@1.2.7
+142 silly idealTree +-- http-errors@1.7.2
+142 silly idealTree | `-- inherits@2.0.3
+142 silly idealTree +-- http-parser-js@0.5.3
+142 silly idealTree +-- http-proxy-middleware@2.0.1
+142 silly idealTree +-- http-proxy@1.18.1
+142 silly idealTree +-- human-signals@2.1.0
+142 silly idealTree +-- iconv-lite@0.4.24
+142 silly idealTree +-- ignore@5.1.8
+142 silly idealTree +-- import-local@3.0.3
+142 silly idealTree +-- indent-string@4.0.0
+142 silly idealTree +-- inflight@1.0.6
+142 silly idealTree +-- inherits@2.0.4
+142 silly idealTree +-- install-peers@1.0.3
+142 silly idealTree +-- internal-ip@6.2.0
+142 silly idealTree | `-- ipaddr.js@1.9.1
+142 silly idealTree +-- interpret@2.2.0
+142 silly idealTree +-- ip-regex@4.3.0
+142 silly idealTree +-- ip@1.1.5
+142 silly idealTree +-- ipaddr.js@2.0.1
+142 silly idealTree +-- is-arguments@1.1.1
+142 silly idealTree +-- is-binary-path@2.1.0
+142 silly idealTree +-- is-core-module@2.7.0
+142 silly idealTree +-- is-date-object@1.0.5
+142 silly idealTree +-- is-docker@2.2.1
+142 silly idealTree +-- is-extglob@2.1.1
+142 silly idealTree +-- is-glob@4.0.3
+142 silly idealTree +-- is-ip@3.1.0
+142 silly idealTree +-- is-number@7.0.0
+142 silly idealTree +-- is-path-cwd@2.2.0
+142 silly idealTree +-- is-path-inside@3.0.3
+142 silly idealTree +-- is-plain-obj@3.0.0
+142 silly idealTree +-- is-plain-object@2.0.4
+142 silly idealTree +-- is-regex@1.1.4
+142 silly idealTree +-- is-stream@2.0.1
+142 silly idealTree +-- is-wsl@2.2.0
+142 silly idealTree +-- isarray@1.0.0
+142 silly idealTree +-- isexe@2.0.0
+142 silly idealTree +-- isobject@3.0.1
+142 silly idealTree +-- jest-worker@27.2.5
+142 silly idealTree +-- json-parse-better-errors@1.0.2
+142 silly idealTree +-- json-schema-traverse@0.4.1
+142 silly idealTree +-- kind-of@6.0.3
+142 silly idealTree +-- loader-runner@4.2.0
+142 silly idealTree +-- locate-path@5.0.0
+142 silly idealTree +-- lodash@4.17.21
+142 silly idealTree +-- media-typer@0.3.0
+142 silly idealTree +-- memfs@3.3.0
+142 silly idealTree +-- merge-descriptors@1.0.1
+142 silly idealTree +-- merge-stream@2.0.0
+142 silly idealTree +-- merge2@1.4.1
+142 silly idealTree +-- methods@1.1.2
+142 silly idealTree +-- micromatch@4.0.4
+142 silly idealTree +-- mime-db@1.50.0
+142 silly idealTree +-- mime-types@2.1.33
+142 silly idealTree +-- mime@1.6.0
+142 silly idealTree +-- mimic-fn@2.1.0
+142 silly idealTree +-- minimalistic-assert@1.0.1
+142 silly idealTree +-- minimatch@3.0.4
+142 silly idealTree +-- minimist@1.2.5
+142 silly idealTree +-- mixly@1.0.0
+142 silly idealTree +-- mkdirp@0.5.5
+142 silly idealTree +-- ms@2.0.0
+142 silly idealTree +-- multicast-dns-service-types@1.1.0
+142 silly idealTree +-- multicast-dns@6.2.3
+142 silly idealTree +-- negotiator@0.6.2
+142 silly idealTree +-- neo-async@2.6.2
+142 silly idealTree +-- node-forge@0.10.0
+142 silly idealTree +-- node-gyp-build@3.7.0
+142 silly idealTree +-- node-releases@1.1.77
+142 silly idealTree +-- normalize-path@3.0.0
+142 silly idealTree +-- npm-run-path@4.0.1
+142 silly idealTree +-- object-is@1.1.5
+142 silly idealTree +-- object-keys@1.1.1
+142 silly idealTree +-- obuf@1.1.2
+142 silly idealTree +-- on-finished@2.3.0
+142 silly idealTree +-- on-headers@1.0.2
+142 silly idealTree +-- once@1.4.0
+142 silly idealTree +-- onetime@5.1.2
+142 silly idealTree +-- open@8.3.0
+142 silly idealTree +-- p-event@4.2.0
+142 silly idealTree +-- p-finally@1.0.0
+142 silly idealTree +-- p-limit@3.1.0
+142 silly idealTree +-- p-locate@4.1.0
+142 silly idealTree | `-- p-limit@2.3.0
+142 silly idealTree +-- p-map@4.0.0
+142 silly idealTree +-- p-retry@4.6.1
+142 silly idealTree +-- p-timeout@3.2.0
+142 silly idealTree +-- p-try@2.2.0
+142 silly idealTree +-- parseurl@1.3.3
+142 silly idealTree +-- path-exists@4.0.0
+142 silly idealTree +-- path-is-absolute@1.0.1
+142 silly idealTree +-- path-key@3.1.1
+142 silly idealTree +-- path-parse@1.0.7
+142 silly idealTree +-- path-to-regexp@0.1.7
+142 silly idealTree +-- path-type@4.0.0
+142 silly idealTree +-- picocolors@0.2.1
+142 silly idealTree +-- picomatch@2.3.0
+142 silly idealTree +-- pkg-dir@4.2.0
+142 silly idealTree +-- portfinder@1.0.28
+142 silly idealTree | +-- debug@3.2.7
+142 silly idealTree | `-- ms@2.1.3
+142 silly idealTree +-- process-nextick-args@2.0.1
+142 silly idealTree +-- proxy-addr@2.0.7
+142 silly idealTree | `-- ipaddr.js@1.9.1
+142 silly idealTree +-- punycode@2.1.1
+142 silly idealTree +-- qs@6.7.0
+142 silly idealTree +-- querystring@0.2.0
+142 silly idealTree +-- queue-microtask@1.2.3
+142 silly idealTree +-- randombytes@2.1.0
+142 silly idealTree +-- range-parser@1.2.1
+142 silly idealTree +-- raw-body@2.4.0
+142 silly idealTree | `-- bytes@3.1.0
+142 silly idealTree +-- readable-stream@3.6.0
+142 silly idealTree +-- readdirp@3.6.0
+142 silly idealTree +-- rechoir@0.7.1
+142 silly idealTree +-- regexp.prototype.flags@1.3.1
+142 silly idealTree +-- requires-port@1.0.0
+142 silly idealTree +-- resolve-cwd@3.0.0
+142 silly idealTree +-- resolve-from@5.0.0
+142 silly idealTree +-- resolve@1.20.0
+142 silly idealTree +-- retry@0.13.1
+142 silly idealTree +-- reusify@1.0.4
+142 silly idealTree +-- rimraf@3.0.2
+142 silly idealTree +-- run-parallel@1.2.0
+142 silly idealTree +-- safe-buffer@5.2.1
+142 silly idealTree +-- safer-buffer@2.1.2
+142 silly idealTree +-- schema-utils@3.1.1
+142 silly idealTree +-- select-hose@2.0.0
+142 silly idealTree +-- selfsigned@1.10.11
+142 silly idealTree +-- send@0.17.1
+142 silly idealTree | `-- ms@2.1.1
+142 silly idealTree +-- serialize-javascript@6.0.0
+142 silly idealTree +-- serve-index@1.9.1
+142 silly idealTree | +-- http-errors@1.6.3
+142 silly idealTree | +-- inherits@2.0.3
+142 silly idealTree | `-- setprototypeof@1.1.0
+142 silly idealTree +-- serve-static@1.14.1
+142 silly idealTree +-- setprototypeof@1.1.1
+142 silly idealTree +-- shallow-clone@3.0.1
+142 silly idealTree +-- shebang-command@2.0.0
+142 silly idealTree +-- shebang-regex@3.0.0
+142 silly idealTree +-- signal-exit@3.0.5
+142 silly idealTree +-- slash@3.0.0
+142 silly idealTree +-- sockjs@0.3.21
+142 silly idealTree +-- source-map-support@0.5.20
+142 silly idealTree +-- source-map@0.6.1
+142 silly idealTree +-- spdy-transport@3.0.0
+142 silly idealTree | +-- debug@4.3.2
+142 silly idealTree | `-- ms@2.1.2
+142 silly idealTree +-- spdy@4.0.2
+142 silly idealTree | +-- debug@4.3.2
+142 silly idealTree | `-- ms@2.1.2
+142 silly idealTree +-- statuses@1.5.0
+142 silly idealTree +-- string_decoder@1.1.1
+142 silly idealTree | `-- safe-buffer@5.1.2
+142 silly idealTree +-- strip-ansi@7.0.1
+142 silly idealTree +-- strip-final-newline@2.0.0
+142 silly idealTree +-- supports-color@8.1.1
+142 silly idealTree +-- tapable@2.2.1
+142 silly idealTree +-- terser-webpack-plugin@5.2.4
+142 silly idealTree +-- terser@5.9.0
+142 silly idealTree | `-- source-map@0.7.3
+142 silly idealTree +-- thunky@1.1.0
+142 silly idealTree +-- to-regex-range@5.0.1
+142 silly idealTree +-- toidentifier@1.0.0
+142 silly idealTree +-- type-is@1.6.18
+142 silly idealTree +-- unpipe@1.0.0
+142 silly idealTree +-- uri-js@4.4.1
+142 silly idealTree +-- url@0.11.0
+142 silly idealTree | `-- punycode@1.3.2
+142 silly idealTree +-- util-deprecate@1.0.2
+142 silly idealTree +-- utils-merge@1.0.1
+142 silly idealTree +-- uuid@3.4.0
+142 silly idealTree +-- v8-compile-cache@2.3.0
+142 silly idealTree +-- vary@1.1.2
+142 silly idealTree +-- watchpack@2.2.0
+142 silly idealTree +-- wbuf@1.7.3
+142 silly idealTree +-- webpack-cli@4.9.0
+142 silly idealTree | `-- commander@7.2.0
+142 silly idealTree +-- webpack-dev-middleware@5.2.1
+142 silly idealTree +-- webpack-dev-server@4.3.1
+142 silly idealTree +-- webpack-merge@5.8.0
+142 silly idealTree +-- webpack-sources@3.2.1
+142 silly idealTree +-- webpack@5.58.1
+142 silly idealTree +-- websocket-driver@0.7.4
+142 silly idealTree +-- websocket-extensions@0.1.4
+142 silly idealTree +-- which@2.0.2
+142 silly idealTree +-- wildcard@2.0.0
+142 silly idealTree +-- wrappy@1.0.2
+142 silly idealTree +-- ws@8.2.3
+142 silly idealTree `-- yocto-queue@0.1.0
+143 silly generateActionsToTake Starting
+144 silly install generateActionsToTake
+145 silly generateActionsToTake Finishing
+146 silly diffTrees action count 2
+147 silly diffTrees add node-gyp-build@3.7.0
+148 silly diffTrees add bufferutil@4.0.1
+149 silly decomposeActions action count 16
+150 silly decomposeActions fetch node-gyp-build@3.7.0
+151 silly decomposeActions extract node-gyp-build@3.7.0
+152 silly decomposeActions test node-gyp-build@3.7.0
+153 silly decomposeActions preinstall node-gyp-build@3.7.0
+154 silly decomposeActions build node-gyp-build@3.7.0
+155 silly decomposeActions install node-gyp-build@3.7.0
+156 silly decomposeActions postinstall node-gyp-build@3.7.0
+157 silly decomposeActions finalize node-gyp-build@3.7.0
+158 silly decomposeActions fetch bufferutil@4.0.1
+159 silly decomposeActions extract bufferutil@4.0.1
+160 silly decomposeActions test bufferutil@4.0.1
+161 silly decomposeActions preinstall bufferutil@4.0.1
+162 silly decomposeActions build bufferutil@4.0.1
+163 silly decomposeActions install bufferutil@4.0.1
+164 silly decomposeActions postinstall bufferutil@4.0.1
+165 silly decomposeActions finalize bufferutil@4.0.1
+166 silly runTopLevelLifecycles Starting
+167 silly executeActions Starting
+168 silly install executeActions
+169 silly doSerial global-install 0
+170 silly doParallel fetch 2
+171 verbose correctMkdir C:\Users\kasunv\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+172 verbose lock using C:\Users\kasunv\AppData\Roaming\npm-cache\_locks\staging-4267bf8af8fa231f.lock for D:\React\Webpack\webpack-starter-app\node_modules\.staging
+173 silly doParallel extract 2
+174 silly extract node-gyp-build@3.7.0
+175 silly extract bufferutil@4.0.1
+176 verbose unbuild node_modules\.staging\bufferutil-efe74564
+177 verbose unbuild node_modules\.staging\node-gyp-build-995c7517
+178 silly gentlyRm D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564 is being purged from base D:\React\Webpack\webpack-starter-app
+179 verbose gentlyRm don't care about contents; nuking D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564
+180 verbose tar unpack C:\Users\kasunv\AppData\Roaming\npm-cache\bufferutil\4.0.1\package.tgz
+181 verbose tar unpacking to D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564
+182 silly gentlyRm D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564 is being purged
+183 verbose gentlyRm don't care about contents; nuking D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564
+184 silly gentlyRm D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517 is being purged from base D:\React\Webpack\webpack-starter-app
+185 verbose gentlyRm don't care about contents; nuking D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517
+186 silly gunzTarPerm modes [ '777', '666' ]
+187 verbose tar unpack C:\Users\kasunv\AppData\Roaming\npm-cache\node-gyp-build\3.7.0\package.tgz
+188 verbose tar unpacking to D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517
+189 silly gentlyRm D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517 is being purged
+190 verbose gentlyRm don't care about contents; nuking D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517
+191 silly gunzTarPerm modes [ '777', '666' ]
+192 silly gunzTarPerm extractEntry package.json
+193 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+194 silly gunzTarPerm extractEntry package.json
+195 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+196 silly gunzTarPerm extractEntry binding.gyp
+197 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+198 silly gunzTarPerm extractEntry fallback.js
+199 silly gunzTarPerm modified mode [ 'fallback.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry bin.js
+201 silly gunzTarPerm modified mode [ 'bin.js', 493, 511 ]
+202 silly gunzTarPerm extractEntry build-test.js
+203 silly gunzTarPerm modified mode [ 'build-test.js', 493, 511 ]
+204 silly gunzTarPerm extractEntry index.js
+205 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry LICENSE
+207 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+208 silly gunzTarPerm extractEntry index.js
+209 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry LICENSE
+211 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+212 silly gunzTarPerm extractEntry README.md
+213 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+214 silly gunzTarPerm extractEntry prebuilds/darwin-x64/electron-napi.node
+215 silly gunzTarPerm modified mode [ 'prebuilds/darwin-x64/electron-napi.node', 493, 511 ]
+216 silly gunzTarPerm extractEntry optional.js
+217 silly gunzTarPerm modified mode [ 'optional.js', 493, 511 ]
+218 silly gunzTarPerm extractEntry README.md
+219 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+220 silly gunzTarPerm extractEntry prebuilds/darwin-x64/node-napi.node
+221 silly gunzTarPerm modified mode [ 'prebuilds/darwin-x64/node-napi.node', 493, 511 ]
+222 silly gunzTarPerm extractEntry prebuilds/linux-x64/electron-napi.node
+223 silly gunzTarPerm modified mode [ 'prebuilds/linux-x64/electron-napi.node', 493, 511 ]
+224 silly gunzTarPerm extractEntry prebuilds/linux-x64/node-napi.node
+225 silly gunzTarPerm modified mode [ 'prebuilds/linux-x64/node-napi.node', 493, 511 ]
+226 silly gunzTarPerm extractEntry prebuilds/win32-ia32/electron-napi.node
+227 silly gunzTarPerm modified mode [ 'prebuilds/win32-ia32/electron-napi.node', 420, 438 ]
+228 silly gunzTarPerm extractEntry prebuilds/win32-ia32/node-napi.node
+229 silly gunzTarPerm modified mode [ 'prebuilds/win32-ia32/node-napi.node', 420, 438 ]
+230 silly gunzTarPerm extractEntry prebuilds/win32-x64/electron-napi.node
+231 silly gunzTarPerm modified mode [ 'prebuilds/win32-x64/electron-napi.node', 420, 438 ]
+232 silly gunzTarPerm extractEntry prebuilds/win32-x64/node-napi.node
+233 silly gunzTarPerm modified mode [ 'prebuilds/win32-x64/node-napi.node', 420, 438 ]
+234 silly gunzTarPerm extractEntry src/bufferutil.c
+235 silly gunzTarPerm modified mode [ 'src/bufferutil.c', 420, 438 ]
+236 silly gentlyRm D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517\node_modules is being purged
+237 verbose gentlyRm don't care about contents; nuking D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517\node_modules
+238 silly gentlyRm D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564\node_modules is being purged
+239 verbose gentlyRm don't care about contents; nuking D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564\node_modules
+240 silly doParallel preinstall 2
+241 silly preinstall node-gyp-build@3.7.0 D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517
+242 info lifecycle node-gyp-build@3.7.0~preinstall: node-gyp-build@3.7.0
+243 silly preinstall bufferutil@4.0.1 D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564
+244 info lifecycle bufferutil@4.0.1~preinstall: bufferutil@4.0.1
+245 silly lifecycle node-gyp-build@3.7.0~preinstall: no script for preinstall, continuing
+246 silly lifecycle bufferutil@4.0.1~preinstall: no script for preinstall, continuing
+247 silly doReverseSerial remove 0
+248 silly doSerial move 0
+249 silly doSerial finalize 2
+250 silly finalize D:\React\Webpack\webpack-starter-app\node_modules\node-gyp-build
+251 silly finalize D:\React\Webpack\webpack-starter-app\node_modules\bufferutil
+252 silly doSerial build 2
+253 silly build node-gyp-build@3.7.0
+254 info linkStuff node-gyp-build@3.7.0
+255 silly linkStuff node-gyp-build@3.7.0 has D:\React\Webpack\webpack-starter-app\node_modules as its parent node_modules
+256 verbose linkBins node-gyp-build@3.7.0
+257 verbose link bins [ { 'node-gyp-build': './bin.js',
+257 verbose link bins     'node-gyp-build-optional': './optional.js',
+257 verbose link bins     'node-gyp-build-test': './build-test.js' },
+257 verbose link bins   'D:\\React\\Webpack\\webpack-starter-app\\node_modules\\.bin',
+257 verbose link bins   false ]
+258 verbose linkMans node-gyp-build@3.7.0
+259 silly build bufferutil@4.0.1
+260 info linkStuff bufferutil@4.0.1
+261 silly linkStuff bufferutil@4.0.1 has D:\React\Webpack\webpack-starter-app\node_modules as its parent node_modules
+262 verbose linkBins bufferutil@4.0.1
+263 verbose linkMans bufferutil@4.0.1
+264 silly doSerial global-link 0
+265 silly doParallel update-linked 0
+266 silly doSerial install 2
+267 silly install node-gyp-build@3.7.0 D:\React\Webpack\webpack-starter-app\node_modules\.staging\node-gyp-build-995c7517
+268 info lifecycle node-gyp-build@3.7.0~install: node-gyp-build@3.7.0
+269 silly lifecycle node-gyp-build@3.7.0~install: no script for install, continuing
+270 silly install bufferutil@4.0.1 D:\React\Webpack\webpack-starter-app\node_modules\.staging\bufferutil-efe74564
+271 info lifecycle bufferutil@4.0.1~install: bufferutil@4.0.1
+272 verbose lifecycle bufferutil@4.0.1~install: unsafe-perm in lifecycle true
+273 verbose lifecycle bufferutil@4.0.1~install: PATH: C:\Users\kasunv\AppData\Roaming\nvm\v6.9.2\node_modules\npm\bin\node-gyp-bin;D:\React\Webpack\webpack-starter-app\node_modules\bufferutil\node_modules\.bin;D:\React\Webpack\webpack-starter-app\node_modules\.bin;C:\Users\kasunv\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\kasunv\AppData\Local\Programs\Python\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\ProgramData\chocolatey\bin;C:\Users\kasunv\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Tools\gradle-6.8.3\bin;C:\wamp64\bin\php\php8.0.9;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kasunv\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\kasunv\AppData\Roaming\npm;C:\Users\kasunv\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\kasunv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kasunv\AppData\Local\Android\sdk\platform-tools;C:\Program Files\heroku\bin;C:\Users\kasunv\AppData\Local\GitHubDesktop\bin;C:\Users\kasunv\AppData\Roaming\Composer\vendor\bin
+274 verbose lifecycle bufferutil@4.0.1~install: CWD: D:\React\Webpack\webpack-starter-app\node_modules\bufferutil
+275 silly lifecycle bufferutil@4.0.1~install: Args: [ '/d /s /c', 'node-gyp-build' ]
+276 silly lifecycle bufferutil@4.0.1~install: Returned: code: 1  signal: null
+277 info lifecycle bufferutil@4.0.1~install: Failed to exec install script
+278 verbose unlock done using C:\Users\kasunv\AppData\Roaming\npm-cache\_locks\staging-4267bf8af8fa231f.lock for D:\React\Webpack\webpack-starter-app\node_modules\.staging
+279 silly rollbackFailedOptional Starting
+280 silly rollbackFailedOptional Finishing
+281 silly runTopLevelLifecycles Finishing
+282 silly install printInstalled
+283 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\chokidar\node_modules\fsevents):
+284 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+285 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+285 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+285 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   win32
+285 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+286 warn ws@8.2.3 requires a peer of utf-8-validate@^5.0.2 but none was installed.
+287 verbose If you need help, you may report this error at:
+287 verbose     <https://github.com/npm/npm/issues>
+288 verbose stack Error: bufferutil@4.0.1 install: `node-gyp-build`
+288 verbose stack Exit status 1
+288 verbose stack     at EventEmitter.<anonymous> (C:\Users\kasunv\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\utils\lifecycle.js:255:16)
+288 verbose stack     at emitTwo (events.js:106:13)
+288 verbose stack     at EventEmitter.emit (events.js:191:7)
+288 verbose stack     at ChildProcess.<anonymous> (C:\Users\kasunv\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\utils\spawn.js:40:14)
+288 verbose stack     at emitTwo (events.js:106:13)
+288 verbose stack     at ChildProcess.emit (events.js:191:7)
+288 verbose stack     at maybeClose (internal/child_process.js:877:16)
+288 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+289 verbose pkgid bufferutil@4.0.1
+290 verbose cwd D:\React\Webpack\webpack-starter-app
+291 error Windows_NT 10.0.19042
+292 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bufferutil@4.0.1"
+293 error node v6.9.2
+294 error npm  v3.10.9
+295 error code ELIFECYCLE
+296 error bufferutil@4.0.1 install: `node-gyp-build`
+296 error Exit status 1
+297 error Failed at the bufferutil@4.0.1 install script 'node-gyp-build'.
+297 error Make sure you have the latest version of node.js and npm installed.
+297 error If you do, this is most likely a problem with the bufferutil package,
+297 error not with npm itself.
+297 error Tell the author that this fails on your system:
+297 error     node-gyp-build
+297 error You can get information on how to open an issue for this project with:
+297 error     npm bugs bufferutil
+297 error Or if that isn't available, you can get their info via:
+297 error     npm owner ls bufferutil
+297 error There is likely additional logging output above.
+298 verbose exit [ 1, true ]
