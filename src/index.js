@@ -1,3 +1,5 @@
+import "./style/index.scss";
+
 var obj1 = {
     name: 'kasun',
     age: 23
