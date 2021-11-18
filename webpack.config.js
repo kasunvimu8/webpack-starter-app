@@ -10,10 +10,29 @@ if (process.env.NODE_ENV === "production") {
 module.exports = {
   mode: mode,
 
+  // extract the images to images folder
+  output: {
+    assetModuleFilename: "images/[hash][ext][query]",
+  },
+
   module: {
     rules: [
       {
-        test: /\.s?css$/i, // not case sensitive
+        test : /\.(png|jpg|jpeg|svg|gif)$/i,
+        type: "asset/resource",
+        // good for small icons,images build images to the javwscript bundle, bundle size get higher
+        // type: "asset/inline"
+
+        // webpack will determine inline or resource determine size also can set
+        // type: "asset"
+        // parser: {
+        //   dataUrlCondition: {
+        //     maxSize: 30 * 1024,
+        //   }
+        // }
+      },
+      {
+        test: /\.(s[ac]|c)ss$/i, // not case sensitive
         use: [
           MiniCssExtractPlugin.loader,
           "css-loader",
@@ -22,7 +41,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -32,6 +51,10 @@ module.exports = {
   },
 
   plugins: [new MiniCssExtractPlugin()],
+
+  resolve : {
+    extensions: [".js", ".jsx"]
+  },
 
   devtool: "source-map", // able to see js files as it is in browser
   devServer: {

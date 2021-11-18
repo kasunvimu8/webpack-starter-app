@@ -1,14 +1,4 @@
-import "./style/index.scss";
+import {render} from "react-dom";
+import App from "./components/App.jsx";
 
-var obj1 = {
-    name: 'kasun',
-    age: 23
-}
-
-var obj2 = {
-    ...obj1,
-    height: '6ft'
-}
-
-console.log(obj1)
-console.log(obj2)
+render(<App />, document.getElementById('root'));
