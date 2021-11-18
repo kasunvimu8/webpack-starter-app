@@ -1,6 +1,12 @@
 let path = require("path");
 let MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+// copy the index.html file to dist
+let HtmlWebpackPlugin = require("html-webpack-plugin");
+
+// cleaning the dist without manual clean
+let { CleanWebpackPlugin } = require("clean-webpack-plugin");
+
 let mode = "development";
 
 if (process.env.NODE_ENV === "production") {
@@ -12,13 +18,14 @@ module.exports = {
 
   // extract the images to images folder
   output: {
+    path: path.resolve(__dirname, "dist"),
     assetModuleFilename: "images/[hash][ext][query]",
   },
 
   module: {
     rules: [
       {
-        test : /\.(png|jpg|jpeg|svg|gif)$/i,
+        test: /\.(png|jpg|jpeg|svg|gif)$/i,
         type: "asset/resource",
         // good for small icons,images build images to the javwscript bundle, bundle size get higher
         // type: "asset/inline"
@@ -50,10 +57,16 @@ module.exports = {
     ],
   },
 
-  plugins: [new MiniCssExtractPlugin()],
+  plugins: [
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+    }),
+  ],
 
-  resolve : {
-    extensions: [".js", ".jsx"]
+  resolve: {
+    extensions: [".js", ".jsx"],
   },
 
   devtool: "source-map", // able to see js files as it is in browser
